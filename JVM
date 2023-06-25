@@ -1,9 +1,156 @@
-<mxfile host="app.diagrams.net" modified="2023-06-25T02:58:15.406Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" version="21.5.0" etag="cq59O1oArSvafB3090s9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-25T03:19:15.488Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="aPYlumgE-U1slh5HEE3F" version="21.5.0" type="github">
   <diagram name="第 1 页" id="zlic3d-xCpY_pZqe3jOE">
-    <mxGraphModel>
+    <mxGraphModel dx="1995" dy="637" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="pQYstGeKHyvRQ_4T81sz-1" value="" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="56" y="183" width="439" height="441" as="geometry" />
+        </mxCell>
+        <mxCell id="pQYstGeKHyvRQ_4T81sz-2" value="" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;labelBackgroundColor=none;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="78" y="234" width="376" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="pQYstGeKHyvRQ_4T81sz-3" value="JVM 1.8内存模型" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="172.51" y="183" width="187" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="pQYstGeKHyvRQ_4T81sz-4" value="" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontFamily=Verdana;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="129" y="245" width="274" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="pQYstGeKHyvRQ_4T81sz-5" value="堆 Heap" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="236" y="245" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pQYstGeKHyvRQ_4T81sz-6" value="字符串常量池&lt;br&gt;StringTable" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;labelBackgroundColor=none;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="156.13" y="294" width="209.75" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="pQYstGeKHyvRQ_4T81sz-15" value="" style="group;fontFamily=Verdana;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="72" y="387" width="197" height="197" as="geometry" />
+        </mxCell>
+        <mxCell id="pQYstGeKHyvRQ_4T81sz-8" value="" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;" vertex="1" parent="pQYstGeKHyvRQ_4T81sz-15">
+          <mxGeometry width="197" height="197" as="geometry" />
+        </mxCell>
+        <mxCell id="pQYstGeKHyvRQ_4T81sz-9" value="线程 Thread" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;" vertex="1" parent="pQYstGeKHyvRQ_4T81sz-15">
+          <mxGeometry x="50.08474576271186" width="97.94350282485875" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pQYstGeKHyvRQ_4T81sz-10" value="&lt;font&gt;虚拟机栈&lt;br&gt;VM Stack&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="pQYstGeKHyvRQ_4T81sz-15">
+          <mxGeometry x="15.025423728813559" y="37" width="166.3926553672316" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="pQYstGeKHyvRQ_4T81sz-11" value="&lt;font&gt;本地方法栈&lt;br&gt;&lt;/font&gt;Native Method Stack" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" vertex="1" parent="pQYstGeKHyvRQ_4T81sz-15">
+          <mxGeometry x="14.468926553672317" y="94" width="166.9491525423729" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="pQYstGeKHyvRQ_4T81sz-12" value="&lt;font&gt;程序计数器&lt;br&gt;&lt;/font&gt;Program Counter Register" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;" vertex="1" parent="pQYstGeKHyvRQ_4T81sz-15">
+          <mxGeometry x="15.581920903954803" y="145" width="166.9491525423729" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="pQYstGeKHyvRQ_4T81sz-16" value="" style="group;fontFamily=Verdana;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="278" y="387" width="200" height="197" as="geometry" />
+        </mxCell>
+        <mxCell id="pQYstGeKHyvRQ_4T81sz-17" value="" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;" vertex="1" parent="pQYstGeKHyvRQ_4T81sz-16">
+          <mxGeometry width="200" height="197" as="geometry" />
+        </mxCell>
+        <mxCell id="pQYstGeKHyvRQ_4T81sz-18" value="线程 Thread" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;" vertex="1" parent="pQYstGeKHyvRQ_4T81sz-16">
+          <mxGeometry x="50.84745762711865" width="99.43502824858757" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pQYstGeKHyvRQ_4T81sz-19" value="&lt;font&gt;虚拟机栈&lt;br&gt;VM Stack&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="pQYstGeKHyvRQ_4T81sz-16">
+          <mxGeometry x="15.254237288135593" y="37" width="168.9265536723164" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="pQYstGeKHyvRQ_4T81sz-20" value="&lt;font&gt;本地方法栈&lt;br&gt;&lt;/font&gt;Native Method Stack" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" vertex="1" parent="pQYstGeKHyvRQ_4T81sz-16">
+          <mxGeometry x="14.689265536723166" y="94" width="169.49152542372883" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="pQYstGeKHyvRQ_4T81sz-21" value="&lt;font&gt;程序计数器&lt;br&gt;&lt;/font&gt;Program Counter Register" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;" vertex="1" parent="pQYstGeKHyvRQ_4T81sz-16">
+          <mxGeometry x="15.819209039548022" y="145" width="169.49152542372883" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="pQYstGeKHyvRQ_4T81sz-51" value="" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-475" y="183" width="439" height="441" as="geometry" />
+        </mxCell>
+        <mxCell id="pQYstGeKHyvRQ_4T81sz-52" value="" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;labelBackgroundColor=none;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="-453" y="234" width="392" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="pQYstGeKHyvRQ_4T81sz-53" value="JVM 1.7内存模型" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-358.49" y="183" width="187" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="pQYstGeKHyvRQ_4T81sz-54" value="" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontFamily=Verdana;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-428" y="243" width="135" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="pQYstGeKHyvRQ_4T81sz-55" value="堆 Heap" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-390.5" y="243" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pQYstGeKHyvRQ_4T81sz-56" value="字符串常量池&lt;br&gt;StringTable" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;labelBackgroundColor=none;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-418.43" y="292" width="115.87" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="pQYstGeKHyvRQ_4T81sz-58" value="" style="group;fontFamily=Verdana;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-459" y="387" width="197" height="197" as="geometry" />
+        </mxCell>
+        <mxCell id="pQYstGeKHyvRQ_4T81sz-59" value="" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;" vertex="1" parent="pQYstGeKHyvRQ_4T81sz-58">
+          <mxGeometry width="197" height="197" as="geometry" />
+        </mxCell>
+        <mxCell id="pQYstGeKHyvRQ_4T81sz-60" value="线程 Thread" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;" vertex="1" parent="pQYstGeKHyvRQ_4T81sz-58">
+          <mxGeometry x="50.08474576271186" width="97.94350282485875" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pQYstGeKHyvRQ_4T81sz-61" value="&lt;font&gt;虚拟机栈&lt;br&gt;VM Stack&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="pQYstGeKHyvRQ_4T81sz-58">
+          <mxGeometry x="15.025423728813559" y="37" width="166.3926553672316" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="pQYstGeKHyvRQ_4T81sz-62" value="&lt;font&gt;本地方法栈&lt;br&gt;&lt;/font&gt;Native Method Stack" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" vertex="1" parent="pQYstGeKHyvRQ_4T81sz-58">
+          <mxGeometry x="14.468926553672317" y="94" width="166.9491525423729" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="pQYstGeKHyvRQ_4T81sz-63" value="&lt;font&gt;程序计数器&lt;br&gt;&lt;/font&gt;Program Counter Register" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;" vertex="1" parent="pQYstGeKHyvRQ_4T81sz-58">
+          <mxGeometry x="15.581920903954803" y="145" width="166.9491525423729" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="pQYstGeKHyvRQ_4T81sz-64" value="" style="group;fontFamily=Verdana;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-253" y="387" width="200" height="197" as="geometry" />
+        </mxCell>
+        <mxCell id="pQYstGeKHyvRQ_4T81sz-65" value="" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;" vertex="1" parent="pQYstGeKHyvRQ_4T81sz-64">
+          <mxGeometry width="200" height="197" as="geometry" />
+        </mxCell>
+        <mxCell id="pQYstGeKHyvRQ_4T81sz-66" value="线程 Thread" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;" vertex="1" parent="pQYstGeKHyvRQ_4T81sz-64">
+          <mxGeometry x="50.84745762711865" width="99.43502824858757" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pQYstGeKHyvRQ_4T81sz-67" value="&lt;font&gt;虚拟机栈&lt;br&gt;VM Stack&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="pQYstGeKHyvRQ_4T81sz-64">
+          <mxGeometry x="15.254237288135593" y="37" width="168.9265536723164" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="pQYstGeKHyvRQ_4T81sz-68" value="&lt;font&gt;本地方法栈&lt;br&gt;&lt;/font&gt;Native Method Stack" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" vertex="1" parent="pQYstGeKHyvRQ_4T81sz-64">
+          <mxGeometry x="14.689265536723166" y="94" width="169.49152542372883" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="pQYstGeKHyvRQ_4T81sz-69" value="&lt;font&gt;程序计数器&lt;br&gt;&lt;/font&gt;Program Counter Register" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;" vertex="1" parent="pQYstGeKHyvRQ_4T81sz-64">
+          <mxGeometry x="15.819209039548022" y="145" width="169.49152542372883" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="pQYstGeKHyvRQ_4T81sz-72" value="" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontFamily=Verdana;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-259" y="245" width="176" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="pQYstGeKHyvRQ_4T81sz-73" value="方法区&lt;br&gt;Method Area" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-214" y="245" width="93.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pQYstGeKHyvRQ_4T81sz-74" value="运行时常量池&lt;br&gt;Runtime Constant Pool" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;labelBackgroundColor=none;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-249" y="294" width="156.44" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="pQYstGeKHyvRQ_4T81sz-75" value="" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-459" y="647" width="409.5" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="pQYstGeKHyvRQ_4T81sz-76" value="本地内存" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="-336" y="678" width="83" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="pQYstGeKHyvRQ_4T81sz-77" value="&lt;font&gt;直接内存&lt;br&gt;Direct Memory&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#76608a;fontColor=#ffffff;strokeColor=#432D57;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="-191" y="662.5" width="120" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="pQYstGeKHyvRQ_4T81sz-78" value="" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="70.75" y="647" width="409.5" height="131" as="geometry" />
+        </mxCell>
+        <mxCell id="pQYstGeKHyvRQ_4T81sz-79" value="本地内存" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="265" y="647" width="83" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="pQYstGeKHyvRQ_4T81sz-80" value="&lt;font&gt;直接内存&lt;br&gt;Direct Memory&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#76608a;fontColor=#ffffff;strokeColor=#432D57;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="343" y="693.5" width="120" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="pQYstGeKHyvRQ_4T81sz-85" value="" style="group;fontFamily=Verdana;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="93" y="663.5" width="176" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="pQYstGeKHyvRQ_4T81sz-82" value="" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontFamily=Verdana;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="pQYstGeKHyvRQ_4T81sz-85">
+          <mxGeometry width="176" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="pQYstGeKHyvRQ_4T81sz-83" value="方法区&lt;br&gt;Method Area" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;labelBackgroundColor=none;" vertex="1" parent="pQYstGeKHyvRQ_4T81sz-85">
+          <mxGeometry x="45" width="93.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pQYstGeKHyvRQ_4T81sz-84" value="运行时常量池&lt;br&gt;Runtime Constant Pool" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;labelBackgroundColor=none;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="pQYstGeKHyvRQ_4T81sz-85">
+          <mxGeometry x="10" y="49" width="156.44" height="42" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
