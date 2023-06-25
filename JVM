@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-25T03:22:07.945Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="F9FQlPvOkAJaPNBWbcES" version="21.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-25T03:26:59.858Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="66ZMjUdFV4f1APg5TvjD" version="21.5.0" type="github">
   <diagram name="第 1 页" id="zlic3d-xCpY_pZqe3jOE">
     <mxGraphModel dx="1995" dy="637" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -150,6 +150,30 @@
         </mxCell>
         <mxCell id="pQYstGeKHyvRQ_4T81sz-84" value="运行时常量池&lt;br&gt;Runtime Constant Pool" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;labelBackgroundColor=none;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="pQYstGeKHyvRQ_4T81sz-85">
           <mxGeometry x="10" y="49" width="156.44" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="pQYstGeKHyvRQ_4T81sz-88" value="&lt;font&gt;线程共享&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="-36" y="143" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pQYstGeKHyvRQ_4T81sz-90" value="&lt;font&gt;线程共享&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="-4" y="194" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pQYstGeKHyvRQ_4T81sz-91" value="&lt;font&gt;线程私有&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="-23" y="442" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pQYstGeKHyvRQ_4T81sz-92" value="&lt;font&gt;线程私有&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="559" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pQYstGeKHyvRQ_4T81sz-93" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;fontFamily=Verdana;" edge="1" parent="1" source="pQYstGeKHyvRQ_4T81sz-52" target="pQYstGeKHyvRQ_4T81sz-88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pQYstGeKHyvRQ_4T81sz-94" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="pQYstGeKHyvRQ_4T81sz-2" target="pQYstGeKHyvRQ_4T81sz-90">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pQYstGeKHyvRQ_4T81sz-95" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;fontFamily=Verdana;" edge="1" parent="1" source="pQYstGeKHyvRQ_4T81sz-65" target="pQYstGeKHyvRQ_4T81sz-91">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pQYstGeKHyvRQ_4T81sz-96" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="pQYstGeKHyvRQ_4T81sz-8" target="pQYstGeKHyvRQ_4T81sz-92">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
