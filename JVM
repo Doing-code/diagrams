@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2023-06-25T03:26:59.858Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="66ZMjUdFV4f1APg5TvjD" version="21.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-26T01:24:05.794Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="E-I8VCUOeMjAjTsnWEQ6" version="21.5.0" type="github">
   <diagram name="第 1 页" id="zlic3d-xCpY_pZqe3jOE">
-    <mxGraphModel dx="1995" dy="637" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2234" dy="764" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="pQYstGeKHyvRQ_4T81sz-124" value="" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
+          <mxGeometry x="37" y="1397" width="154" height="250" as="geometry" />
+        </mxCell>
         <mxCell id="pQYstGeKHyvRQ_4T81sz-1" value="" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="56" y="183" width="439" height="441" as="geometry" />
         </mxCell>
@@ -166,14 +169,107 @@
         <mxCell id="pQYstGeKHyvRQ_4T81sz-93" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;fontFamily=Verdana;" edge="1" parent="1" source="pQYstGeKHyvRQ_4T81sz-52" target="pQYstGeKHyvRQ_4T81sz-88">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="pQYstGeKHyvRQ_4T81sz-94" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="pQYstGeKHyvRQ_4T81sz-2" target="pQYstGeKHyvRQ_4T81sz-90">
+        <mxCell id="pQYstGeKHyvRQ_4T81sz-94" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;fontFamily=Verdana;" edge="1" parent="1" source="pQYstGeKHyvRQ_4T81sz-2" target="pQYstGeKHyvRQ_4T81sz-90">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="pQYstGeKHyvRQ_4T81sz-95" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;fontFamily=Verdana;" edge="1" parent="1" source="pQYstGeKHyvRQ_4T81sz-65" target="pQYstGeKHyvRQ_4T81sz-91">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="pQYstGeKHyvRQ_4T81sz-96" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="pQYstGeKHyvRQ_4T81sz-8" target="pQYstGeKHyvRQ_4T81sz-92">
+        <mxCell id="pQYstGeKHyvRQ_4T81sz-96" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;fontFamily=Verdana;" edge="1" parent="1" source="pQYstGeKHyvRQ_4T81sz-8" target="pQYstGeKHyvRQ_4T81sz-92">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pQYstGeKHyvRQ_4T81sz-97" value="" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-467" y="995" width="471" height="322" as="geometry" />
+        </mxCell>
+        <mxCell id="pQYstGeKHyvRQ_4T81sz-98" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;方法区&lt;br&gt;PermGen&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="-272.56" y="997" width="98" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="pQYstGeKHyvRQ_4T81sz-99" value="" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="-445" y="1029" width="158" height="181" as="geometry" />
+        </mxCell>
+        <mxCell id="pQYstGeKHyvRQ_4T81sz-100" value="类型信息" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="-399" y="1063" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pQYstGeKHyvRQ_4T81sz-101" value="字段信息" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="-399" y="1097" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pQYstGeKHyvRQ_4T81sz-102" value="方法表" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="-399" y="1167" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pQYstGeKHyvRQ_4T81sz-103" value="......" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="-399" y="1127" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pQYstGeKHyvRQ_4T81sz-104" value="运行时常量池" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-192" y="1093" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pQYstGeKHyvRQ_4T81sz-105" value="JIT代码缓存" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-437" y="1235" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pQYstGeKHyvRQ_4T81sz-106" value="静态变量" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-294.56" y="1235" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pQYstGeKHyvRQ_4T81sz-108" value="字符串常量池&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-145" y="1235" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pQYstGeKHyvRQ_4T81sz-109" value="" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
+          <mxGeometry x="45" y="995" width="154" height="318" as="geometry" />
+        </mxCell>
+        <mxCell id="pQYstGeKHyvRQ_4T81sz-110" value="堆" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="86" y="1025" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pQYstGeKHyvRQ_4T81sz-111" value="&lt;font face=&quot;Verdana&quot;&gt;类的结构&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-399" y="1029" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pQYstGeKHyvRQ_4T81sz-112" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;JDK 1.6&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-293" y="953" width="131" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="pQYstGeKHyvRQ_4T81sz-113" value="" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-475" y="1400" width="471" height="242" as="geometry" />
+        </mxCell>
+        <mxCell id="pQYstGeKHyvRQ_4T81sz-114" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;方法区&lt;br&gt;PermGen&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="-280.56" y="1402" width="98" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="pQYstGeKHyvRQ_4T81sz-115" value="" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="-453" y="1434" width="158" height="181" as="geometry" />
+        </mxCell>
+        <mxCell id="pQYstGeKHyvRQ_4T81sz-116" value="类型信息" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="-407" y="1468" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pQYstGeKHyvRQ_4T81sz-117" value="字段信息" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="-407" y="1502" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pQYstGeKHyvRQ_4T81sz-118" value="方法表" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="-407" y="1572" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pQYstGeKHyvRQ_4T81sz-119" value="......" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="-407" y="1532" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pQYstGeKHyvRQ_4T81sz-120" value="运行时常量池" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-203" y="1468" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pQYstGeKHyvRQ_4T81sz-121" value="JIT代码缓存" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-214" y="1551" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pQYstGeKHyvRQ_4T81sz-122" value="静态变量" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="53.99999999999999" y="1442" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pQYstGeKHyvRQ_4T81sz-123" value="字符串常量池&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="55.99999999999999" y="1542" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pQYstGeKHyvRQ_4T81sz-125" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;堆&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="82.51" y="1399" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pQYstGeKHyvRQ_4T81sz-126" value="&lt;font face=&quot;Verdana&quot;&gt;类的结构&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-407" y="1434" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pQYstGeKHyvRQ_4T81sz-127" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;JDK 1.7&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-308.06" y="1359" width="131" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="pQYstGeKHyvRQ_4T81sz-128" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-509" y="1341" as="sourcePoint" />
+            <mxPoint x="257" y="1341" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
