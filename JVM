@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-26T05:58:11.876Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="7SRWNNBZnmRVBRwyGtXI" version="21.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-26T06:19:33.499Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="8i6ogGfz2roxT_EZGcxs" version="21.5.0" type="github">
   <diagram name="第 1 页" id="zlic3d-xCpY_pZqe3jOE">
     <mxGraphModel dx="1789" dy="527" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -424,7 +424,7 @@
         <mxCell id="qs9V9OGCDUftb9TVNNy9-38" value="A3对象" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="-139.31" y="2062" width="72" height="39" as="geometry" />
         </mxCell>
-        <mxCell id="qs9V9OGCDUftb9TVNNy9-39" value="A4对象&lt;br&gt;finallize()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="qs9V9OGCDUftb9TVNNy9-39" value="A4对象&lt;br&gt;finalize&lt;span style=&quot;background-color: rgb(43, 43, 43); color: rgb(169, 183, 198); font-family: &amp;quot;JetBrains Mono&amp;quot;; font-size: 9.8pt;&quot;&gt;&lt;/span&gt;()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="-139.31" y="2212" width="72" height="39" as="geometry" />
         </mxCell>
         <mxCell id="qs9V9OGCDUftb9TVNNy9-42" value="BuyeBuffer" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
