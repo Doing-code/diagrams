@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-28T04:15:48.359Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="B1bm9wn6mjutwcBeYA6K" version="21.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-29T05:02:19.374Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="o2PJrv0Ye5ICBy6FVYu_" version="21.5.0" type="github">
   <diagram name="第 1 页" id="zlic3d-xCpY_pZqe3jOE">
     <mxGraphModel dx="1789" dy="527" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1548,6 +1548,96 @@
         </mxCell>
         <mxCell id="ZR5aJsqEQKP0r5lLO2YF-310" value="System.out&lt;br&gt;对象" style="text;html=1;strokeColor=#36393d;fillColor=#FF66B3;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1838" y="3960" width="80" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="ZR5aJsqEQKP0r5lLO2YF-322" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="1719" y="4352" width="203" height="375" as="geometry" />
+        </mxCell>
+        <mxCell id="ZR5aJsqEQKP0r5lLO2YF-323" value="本地内存" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1763" y="4352" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZR5aJsqEQKP0r5lLO2YF-325" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1746" y="4408.5" width="149" height="253" as="geometry" />
+        </mxCell>
+        <mxCell id="ZR5aJsqEQKP0r5lLO2YF-324" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;_super&lt;/div&gt;&lt;div&gt;_fields&lt;/div&gt;&lt;div&gt;_methods&lt;/div&gt;&lt;div&gt;_constants&lt;/div&gt;&lt;div&gt;_class_loader&lt;/div&gt;&lt;div&gt;_vtable&lt;/div&gt;&lt;div&gt;_itable&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1765" y="4443.5" width="107" height="195" as="geometry" />
+        </mxCell>
+        <mxCell id="ZR5aJsqEQKP0r5lLO2YF-326" value="Metaspace&lt;br&gt;元空间" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1762" y="4408.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZR5aJsqEQKP0r5lLO2YF-327" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1941" y="4353" width="535" height="374" as="geometry" />
+        </mxCell>
+        <mxCell id="ZR5aJsqEQKP0r5lLO2YF-328" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF9D9;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1958" y="4389" width="469" height="314" as="geometry" />
+        </mxCell>
+        <mxCell id="ZR5aJsqEQKP0r5lLO2YF-329" value="堆" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1983" y="4406" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZR5aJsqEQKP0r5lLO2YF-341" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="ZR5aJsqEQKP0r5lLO2YF-330" target="ZR5aJsqEQKP0r5lLO2YF-339">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZR5aJsqEQKP0r5lLO2YF-330" value="Person.class&lt;br&gt;instanceKlass 地址" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="1978" y="4446" width="189" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZR5aJsqEQKP0r5lLO2YF-343" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZR5aJsqEQKP0r5lLO2YF-331" target="ZR5aJsqEQKP0r5lLO2YF-330">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2314" y="4403" />
+              <mxPoint x="2073" y="4403" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZR5aJsqEQKP0r5lLO2YF-331" value="Person 对象头&lt;br&gt;class 地址" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="2254" y="4454" width="120" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="ZR5aJsqEQKP0r5lLO2YF-332" value="name = &quot;张三&quot;&lt;br&gt;age = 18" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="2254" y="4495" width="120" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="ZR5aJsqEQKP0r5lLO2YF-344" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.587;entryY=0.001;entryDx=0;entryDy=0;curved=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryPerimeter=0;" edge="1" parent="1" source="ZR5aJsqEQKP0r5lLO2YF-333" target="ZR5aJsqEQKP0r5lLO2YF-330">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2232" y="4606" />
+              <mxPoint x="2232" y="4425" />
+              <mxPoint x="2088" y="4425" />
+              <mxPoint x="2088" y="4446" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZR5aJsqEQKP0r5lLO2YF-333" value="Person 对象头&lt;br&gt;class 地址" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="2250" y="4606" width="120" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="ZR5aJsqEQKP0r5lLO2YF-334" value="name = &quot;李四&quot;&lt;br&gt;age = 20" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="2250" y="4647" width="120" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="ZR5aJsqEQKP0r5lLO2YF-335" value="Object 对象头&lt;br&gt;class 地址" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="2010" y="4609" width="120" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="ZR5aJsqEQKP0r5lLO2YF-336" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="2010" y="4650" width="120" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="ZR5aJsqEQKP0r5lLO2YF-345" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="ZR5aJsqEQKP0r5lLO2YF-337" target="ZR5aJsqEQKP0r5lLO2YF-336">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2072" y="4588" />
+              <mxPoint x="1975" y="4588" />
+              <mxPoint x="1975" y="4670" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZR5aJsqEQKP0r5lLO2YF-337" value="static int MAX_AGE = 100;&lt;br&gt;static Object obj = new Object();" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="1978" y="4506" width="189" height="44.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ZR5aJsqEQKP0r5lLO2YF-338" value="JDK 1.8 内存结构" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1948" y="4355" width="150" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="ZR5aJsqEQKP0r5lLO2YF-339" value="instanceKlass" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1756" y="4468" width="98" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZR5aJsqEQKP0r5lLO2YF-342" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="ZR5aJsqEQKP0r5lLO2YF-340" target="ZR5aJsqEQKP0r5lLO2YF-330">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZR5aJsqEQKP0r5lLO2YF-340" value="_java_mirror" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1762" y="4486" width="77" height="25" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
